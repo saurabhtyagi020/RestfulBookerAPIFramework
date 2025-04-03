@@ -19,6 +19,8 @@ public class BaseTest {
     @BeforeTest
     public void commantoAll()
     {
+        payloadManager = new PayloadManager();
+
        requestSpecification= RestAssured.given();
         requestSpecification.baseUri(APIConstants.BASE_URL);
         requestSpecification.contentType(ContentType.JSON);
