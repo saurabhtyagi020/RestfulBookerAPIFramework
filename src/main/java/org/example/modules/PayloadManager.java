@@ -33,4 +33,9 @@ public class PayloadManager {
         return responseasString;
 
     }
+
+//    public String fullupdatebooking()
+//    {
+//        Booking booking = new Booking();
+//    }
 }
